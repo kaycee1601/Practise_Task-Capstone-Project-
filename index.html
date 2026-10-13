@@ -12,14 +12,14 @@
     <div class="nav-links">
         <a class="logo" href="#">
             <!-- Add the source path of this image in the code repo and push it so the icons and logo will show--> 
-           <img src="/images/logo_black.png" alt="logo" height="40px">
+           <img src="images/logo_black.png" alt="logo" height="40px">
         </a>
     </div>
     <div>
         <button id="modebtn">DARK</button>
 
         <!-- Add the source path of this icon in the code repo and push it so the icons and logo will show--> 
-        <img id="mode" src="/images/Path.png" alt="path" height="20px">
+        <img id="mode" src="images/ThemeIcon.png" alt="path" height="20px">
     </div>
     </section>
   </header>
@@ -30,9 +30,7 @@
     
         <div class="search-container">
             <!-- Search Icon -->
-            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10.6084 0C16.458 0 21.2178 4.74645 21.2178 10.5801C21.2177 13.1889 20.2631 15.5782 18.6875 17.4248L23.8018 22.5137C24.142 22.8525 24.1432 23.4035 23.8047 23.7441C23.6349 23.9146 23.4118 24 23.1885 24C22.9665 24 22.745 23.9157 22.5752 23.7471L17.4541 18.6514C15.6049 20.2135 13.216 21.1592 10.6084 21.1592C4.75913 21.159 0.000198651 16.4135 0 10.5801C0 4.74654 4.75896 0.000139796 10.6084 0ZM10.6084 1.73926C5.7178 1.7394 1.73926 5.70538 1.73926 10.5801C1.73948 15.4543 5.71794 19.4198 10.6084 19.4199C13.0218 19.4199 15.2117 18.4528 16.8125 16.8887C16.8278 16.8705 16.8443 16.8531 16.8613 16.8359C16.8813 16.8159 16.9025 16.797 16.9238 16.7793C18.5019 15.1825 19.4784 12.9931 19.4785 10.5801C19.4785 5.70529 15.4991 1.73926 10.6084 1.73926Z" fill="#0079FF"/>
-</svg>
+            <image src="images/SearchIcon.png" alt="search icon" class="search-icon" />
 
             <!-- Input Field -->
   <input type="text" placeholder="Search planet name" class="search-input" />
@@ -46,7 +44,7 @@
   <section>
         <div class="hero-section-div1" >
             <div>
-                <img src="images/image_26.png" alt="profile picture"
+                <img src="images/ProfilePicture.png" alt="profile picture"
                     width=" 117px" height="117px" loading ="lazy" class="hero-section-img1">
             </div>
             <div>
@@ -64,19 +62,19 @@
             </div>
             <div class="facts2">
                 <div> <div class="temperature">
-                       <img src="/images/temperature.png" />
+                       <img src="images/TemperatureIcon.png" />
                        <span>288</span>
                 </div>
                 <div class="black-moon">
-                       <img src="/images/black_moon.png" />
+                       <img src="images/Path.png" />
                        <span>1</span>
                 </div></div>
-                <div> <div class="distance">
-                       <img src="/images/distance.png" />
+                <div> <div class="diameter">
+                       <img src="images/Diameter.png" />
                        <span>12756</span>
                 </div>
-                <div class="settings">
-                       <img src="/images/settings.png" />
+                <div class="vector">
+                       <img src="images/Vector.png" />
                        <span>149.6</span>
                 </div></div>
                
@@ -84,7 +82,108 @@
             </div>
         </div>
     </section>
+    
+      <!--Table-->
+    
+    <section class="table">
+        <h2>Planetary Facts at a Glance</h2>
+        <p>
+        Below is a comparative table of major planet in our solar system. The
+        data highlights key physical properties used by astronomers and
+        researchers worldwide.
+       </p>
+       <table>
+           <caption>
+        Data about the planet of our solar system (Planetary facts taken from NASA)
+          </caption>
+          <thead>
+          <tr>
+             <th colspan="2"></th>
+             <th>Name</th>
+             <th>Mass(1024kg)</th>
+             <th>Diameter(km)</th>
+          </tr>
+          </thead>
+          <tbody>
+              <tr>
+                   <th rowspan="4" colspan="2">Terrestial<br> Planets</th>
+                   <td>Mercury</td>
+                   <td>0.330</td>
+                   <td>4,878</td>
+                   <tr>
+                       <td>Venus</td>
+                       <td>0.330</td>
+                       <td>4,878</td>
+                  </tr>
+                  <tr>
+                       <td>Earth</td>
+                       <td>0.330</td>
+                       <td>4,878</td>
+                 </tr>
+                 <tr>
+                       <td>Mars</td>
+                       <td>0.330</td>
+                       <td>4,878</td>
+                 </tr>
+             </tr>
+               <tr>
+                  <th rowspan="4" colspan="">Jovian<br> Planets</th>
+                  <tr>
+                        <th rowspan="2">Gas Giants</th>
+                        <td>Jupiter</td> 
+                        <td>0.330</td>
+                        <td>4,878</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Saturn</td>
+                        <td>0.330</td>
+                        <td>4,878</td>
+                    </tr>
+                </tr>
+                <tr>
+                    <th rowspan="2">Ice Giants</th>
+                    <td>Uranus</td>
+                    <td>0.330</td>
+                    <td>4,878</td>
+                    
+               </tr>
+                    <tr>
+                        <th></th>
+                        <td>Neptune</td>
+                        <td>0.330</td>
+                        <td>4,878</td>
+                    </tr>
+               </tr>
+               <tr>
+                    <th colspan="2">Dwarf Planets</th>
+                    <td>Pluto</td>
+                    <td>0.330</td>
+                    <td>4,878</td>
+              </tr> 
+            </tbody>                                 
+        </table>
+    
+    <!--Footer-->
 
+  <footer>
+       <div class=team>
+           <h3>About</h3>
+           <p>A team of eight, collaborating to practise and test our capability on frontend development</p>
+           <span id="team-members"><strong>Team Members:</strong></span>
+           <ul aria-labelledby="team-members">
+               <li>Divine</li>
+               <li>Hawa</li>
+               <li>Lino</li>
+               <li>KayCee</li>
+               <li>Kubra</li>
+               <li>Victoria</li>
+            </ul>
+        </div>
+        <div class="copy-2026">
+            <p>&copy;2026 Designed by<a href ="amakandukwu.com"> Amaka N</a><br> Built by PractiseTask Team. All rights reserved <br> <a href="https://tsacademyonline.com/">TsAcademy</a></p>
+        </div>
+  </footer>
     
 </body>
 </html>
